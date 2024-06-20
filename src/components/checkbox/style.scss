@@ -1,0 +1,10 @@
+.checkbox-group {
+
+    .checkbox-item {
+        cursor: pointer;
+        &.checked {
+            background-color: #00644e;
+            color: white;
+        }
+    }
+}

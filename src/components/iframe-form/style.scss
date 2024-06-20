@@ -1,0 +1,33 @@
+.iframe-form {
+    &.card {
+        border: none;
+    }
+    .form-label {
+        margin-top: 12px;
+        margin-bottom: unset;
+        width: 100%;
+        text-align: start;
+        font-weight: 500;
+    }
+    .form-text {
+        margin-bottom: 0px;
+        color: inherit;
+        margin-top: 12px;
+    }
+    .url-query-section {
+        margin-top: 8px;
+    }
+    .card-body {
+        background-color: #212529;
+        color: white;
+    }
+    input,
+    button,
+    .input-group-text,
+    .form-select {
+        font-size: 14px;
+    }
+    .input-group-text {
+        min-width: 65px;
+    }
+}
