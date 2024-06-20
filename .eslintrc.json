@@ -1,0 +1,36 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+        // "plugin:prettier/recommended"
+        // "@babel/plugin-transform-private-property-in-object",
+        // "next/core-web-vitals"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "globals": {
+        "appConfig": true,
+        "global": true
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "react/react-in-jsx-scope": "off",
+        "global-require": 1,
+        "react/prop-types": 0,
+        "no-unused-vars": 1,
+        "endOfLine": 0,
+        "indent": [1, 4],
+        "object-curly-spacing": [1, "always", { "objectsInObjects": false }],
+        "no-trailing-spaces": 1
+    }
+}
